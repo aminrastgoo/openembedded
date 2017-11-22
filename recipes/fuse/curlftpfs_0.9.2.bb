@@ -4,7 +4,7 @@ HOMEPAGE = "http://curlftpfs.sourceforge.net/"
 SECTION = "console/network"
 PRIORITY = "optional"
 LICENSE = "GPLv2"
-DEPENDS = "glib-2.0 fuse curl"
+DEPENDS = "glib-2.0 fuse curl pkgconfig"
 RDEPENDS_${PN} += " libcurl "
 PR = "r1"
 
